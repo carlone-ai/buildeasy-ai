@@ -10,7 +10,8 @@ export default function Hero() {
           <br />
         </h1>
         <p className="mx-auto max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Proven expertise to accelerate you to AI speed: grow revenue, reduce costs, transform operations.
+          We empower business leaders with intelligent AI Agent solutions.
+          {/* Proven expertise to accelerate you to AI speed: grow revenue, reduce costs, transform operations. */}
         </p>
       </div>
       <div className="flex gap-4">
