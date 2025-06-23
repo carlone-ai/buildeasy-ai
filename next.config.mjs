@@ -1,3 +1,4 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
@@ -5,8 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/buildeasy-ai',
-  assetPrefix: '/buildeasy-ai/',  
 };
 
 export default nextConfig;
