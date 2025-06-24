@@ -7,16 +7,27 @@ export default function Footer() {
   return (
     <footer className="border-t">
       <div className="container flex flex-col gap-8 py-8 md:flex-row md:py-12">
+        <div className="flex-1 space-y-6">
+          <Image
+            src="./images/b_logo.png"
+            alt="Build Easy AI Logo"
+            width={600}
+            height={240}
+            className="h-60 w-auto mb-4" // Increased from h-40 to h-60
+          />
+          <h2 className="text-2xl font-bold">Build Easy AI</h2> {/* Added text-2xl */}
+          <p className="text-base text-muted-foreground">Empowering SMBs with intelligent AI Agent solutions.</p> {/* Changed from text-sm to text-base */}
+      {/* <div className="container flex flex-col gap-8 py-8 md:flex-row md:py-12">
         <div className="flex-1 space-y-4">
           <Image
-            src="/images/logo.png"
+            src="./images/b_logo.png"
             alt="Build Easy AI Logo"
             width={400}
             height={160}
             className="h-40 w-auto mb-2"
           />
           <h2 className="font-bold">Build Easy AI</h2>
-          <p className="text-sm text-muted-foreground">Empowering SMBs with intelligent AI Agent solutions.</p>
+          <p className="text-sm text-muted-foreground">Empowering SMBs with intelligent AI Agent solutions.</p> */}
         </div>
         <div className="grid flex-1 grid-cols-2 gap-12 sm:grid-cols-2">
           <div className="space-y-4">
