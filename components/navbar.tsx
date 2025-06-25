@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Image
-            src="./images/logo.png"
+            src="/images/logo.png"
             alt="Build Easy AI Logo"
             width={140}
             height={40}
