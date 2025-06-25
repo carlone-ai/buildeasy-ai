@@ -17,7 +17,7 @@ export default function Navbar() {
         </Link>
         <nav className="flex items-center space-x-6 text-sm font-medium">
           <Link href="/about" className="transition-colors hover:text-primary">
-            About Us
+            About
           </Link>
           <Button variant="ghost" size="sm" asChild>
             <a
